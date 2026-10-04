@@ -1,0 +1,2 @@
+dontaudit hal_thermal_default sysfs_thermal:dir { add_name write };
+dontaudit hal_thermal_default sysfs_thermal:file create;
