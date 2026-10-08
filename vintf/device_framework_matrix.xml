@@ -17,14 +17,6 @@
             <instance>oplus_app_slot2</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.biometrics.fingerprint</name>
-        <version>2.1</version>
-        <interface>
-            <name>IBiometricsFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.biometrics.fingerprintpay</name>
         <version>1</version>
@@ -39,14 +31,6 @@
         <interface>
             <name>IAONService</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.camera.aon</name>
-        <version>1.0</version>
-        <interface>
-            <name>IAONService</name>
-            <instance>oplusaoncameraservice</instance>
         </interface>
     </hal>
     <hal format="aidl" optional="true">
@@ -109,14 +93,6 @@
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.cwb</name>
         <version>1-2</version>
-        <interface>
-            <name>ICwbService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.cwb</name>
-        <version>1.0</version>
         <interface>
             <name>ICwbService</name>
             <instance>default</instance>
