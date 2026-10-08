@@ -1,6 +1,5 @@
 # Audio
 ro.vendor.oplus.audiodriver.operator    u:object_r:vendor_audio_debug_prop:s0
-ro.vendor.oplus.regionmark              u:object_r:vendor_audio_debug_prop:s0
 
 # Camera
 ro.vendor.camera.res.          u:object_r:vendor_camera_prop:s0
@@ -62,6 +61,10 @@ vendor.touchdaemon.          u:object_r:vendor_oplus_touch_prop:s0
 
 # URCC
 vendor.oplus.urcc.started    u:object_r:vendor_oplus_urcc_prop:s0
+
+# NFC
+persist.vendor.nfc.          u:object_r:vendor_nfc_prop:s0
+
 
 # Widevine
 vendor.wvm.disable_l1    u:object_r:vendor_wvmkiller_prop:s0
