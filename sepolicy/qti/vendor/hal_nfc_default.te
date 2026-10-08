@@ -1,6 +1,7 @@
 allow hal_nfc_default vendor_nfc_vendor_data_file:dir search;
 
 set_prop(hal_nfc_default, vendor_nfc_nq_prop)
+set_prop(hal_nfc_default, vendor_nfc_prop)
 
 add_service(hal_nfc_default, hal_nfc_service)
 add_service(hal_nfc_default, hal_oplus_nfc_tms_service)
