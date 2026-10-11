@@ -35,3 +35,4 @@ set_prop(oplus_touchdaemon, system_oplus_touch_prop)
 set_prop(oplus_touchdaemon, vendor_oplus_touch_prop)
 
 
+get_prop(oplus_touchdaemon, exported_system_prop)

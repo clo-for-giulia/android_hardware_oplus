@@ -22,3 +22,4 @@ set_prop(subsystem_daemon, vendor_radio_prop)
 
 r_dir_file(subsystem_daemon, vendor_proc_engineer)
 rw_dir_file(subsystem_daemon, vendor_olog_file)
+get_prop(subsystem_daemon, vendor_camera_prop)
